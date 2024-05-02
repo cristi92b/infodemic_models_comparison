@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE experiments SYSTEM "behaviorspace.dtd">
+<experiments>
+  <experiment name="SIRS_0.1_0.1_0.0_0.1" repetitions="1" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <metric>count turtles</metric>
+    <metric>count susceptible</metric>
+    <metric>count infected</metric>
+    <metric>count exposed</metric>
+    <metric>count immune</metric>
+    <metric>run-seed</metric>
+    <enumeratedValueSet variable="sigma"> <value value="0.0"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="gamma"> <value value="0.1"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="max-ticks"> <value value="2000"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="misinfo-lower-right?"> <value value="false"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="Model"> <value value="&quot;SIRS&quot;"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="xi"> <value value="0.1"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="initial_immune"> <value value="0"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="misinfo-upper-right?"> <value value="false"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="beta"> <value value="0.1"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="misinfo-lower-left?"> <value value="false"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="misinfo-upper-left?"> <value value="false"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="stop-after?"> <value value="true"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="info-regrowth-rate"> <value value="0.03"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="initial_exposed"> <value value="0"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="initial_infected"> <value value="450"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="initial_susceptible"> <value value="900"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="use-logistic-map"> <value value="false"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="starting-energy-infected"> <value value="50"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="loss-move-exposed"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="loss-move-infected"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="loss-move-susceptible"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-delay-recovered"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-delay-infected"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="starting-energy-exposed"> <value value="50"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-loss-recovered"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="loss-move-recovered"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-delay-exposed"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="energy-gain-susceptible"> <value value="10"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="max-spread-in-radius"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="energy-gain-recovered"> <value value="10"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="starting-energy-recovered"> <value value="50"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-loss-susceptible"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="energy-gain-exposed"> <value value="10"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="attachment-group"> <value value="0"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-loss-exposed"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-delay-susceptible"> <value value="5"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="r"> <value value="0.36"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="posting-loss-infected"> <value value="35"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="starting-energy-susceptible"> <value value="50"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="spread-radius"> <value value="2"/> </enumeratedValueSet>
+    <enumeratedValueSet variable="energy-gain-infected"> <value value="10"/> </enumeratedValueSet>
+  </experiment>
+</experiments>
