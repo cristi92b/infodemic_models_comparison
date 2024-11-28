@@ -1,4 +1,4 @@
-# Results repository for "Understanding the Mechanisms of Infodemic: Equation-Based vs Agent-Based Models"
+# Results repository for "Understanding the Mechanisms of Infodemics: Equation-Based vs Agent-Based Models"
 
 ## Introduction
 
