@@ -1,4 +1,4 @@
-# Results repository for "Evaluation of Intermodel Equivalence for Misinformation Diffusion: Equation vs. Agent-Based Models"
+# Results repository for "Understanding the Mechanisms of Infodemic: Equation-Based vs Agent-Based Models"
 
 ## Introduction
 
